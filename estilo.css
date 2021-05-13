@@ -1,0 +1,329 @@
+
+body {
+	background-color:#f9e2d2;
+}
+/*
+
+navegacao
+
+*/
+#main-nav .navbar-brand {
+	color:crimson;
+	font-size:1.5em;	
+}
+.choco-nav{
+	background-color:rgba(210, 105, 30, .7);
+	transition:background-color 1s;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:royalblue;
+	opacity:1;
+	font-size:1.1em;
+
+}
+#main-nav .active {
+	color:royalblue;
+	text-decoration:underline solid .2em springgreen;
+	ttext-decoration-color:springgreen;
+	font-size:1.2em;
+	font-weight:bold;
+	text-underline-offset:.3em;
+}
+/*
+#main-nav .active:after{
+	content: " 🧁 ";
+}
+*/
+#main-nav .active:before{
+	content: " 🧁 ";
+}
+
+#main-nav #botao{ 
+	border-color: royalblue; 
+} 
+
+#main-nav #botao #bot-ico{ 
+	background-image: url( 
+	"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(65, 105, 225)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+/*
+
+inicio
+
+*/
+#cobertura h1{
+	color:#f0ffff;
+	font-weight:300;
+}
+
+.recheios  h2{
+	color:crimson;
+	font-weight:300;
+}
+
+.recheios h3{
+	font-size:2em;
+}
+
+.recheios p{
+	color:crimson;
+	line-height:2em;
+	
+}
+
+.recheios p:first-letter{
+	font-size:1.75em;
+}
+
+footer h4{
+	font-weight:300;
+}
+footer i{ 
+	bordder:1px solid black;
+	font-size:1.5rem
+}
+
+footer {
+	color:crimson;
+}
+/*
+
+mostruario
+
+*/
+#vitrine-de-bolos header h1{
+	color:crimson;
+	font-weight:400;
+	letter-spacing:.1em;
+}
+#vitrine-de-bolos hr{
+color:chocolate;
+border:.1em solid chocolate;
+
+opacity:1;
+border-radius:.1em;
+}
+.porta-bolo .boleiro{	
+	border-top-left-radius:40%;
+	border-top-right-radius:40%;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+}
+
+.porta-bolo img{
+	border-top-left-radius:40%;
+	border-top-right-radius:40%;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;	
+}
+
+
+.porta-bolo .enfeite{
+	width:50px;
+	height:50px;
+	border:none;
+	font-size:30px;		
+}
+
+.porta-bolo .rotulo{
+	width:100%;
+	height:35%;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+
+
+}
+
+.rotulo h5{
+	margin:0;
+	color:#f9ffff;
+	font-size:1em;
+}
+
+.rotulo p{
+	margin:0;
+	color:#f9ffff;
+	font-size:.85em;
+}
+
+.rotulo span{
+	background-color:royalblue;
+}
+
+.porta-bolo .morango {
+	border:4px solid #f60940;
+	background-color:#f60940;
+}
+
+.porta-bolo .morango .enfeite:after{
+	content:' 🍓 ';
+}
+.porta-bolo .morango .rotulo {
+	background-image: linear-gradient(rgba(255,255,255,0), #f60940 );		
+}
+
+
+
+.porta-bolo .limao {
+	border:4px solid #00e673;
+	background-color:#00e673;
+}
+
+.porta-bolo .limao .enfeite:after{
+	content:' 🍋 ';
+}
+.porta-bolo .limao .rotulo {
+	background-image: linear-gradient(rgba(255,255,255,0), #00e673 );		
+}
+
+
+.porta-bolo .doces {
+	border:4px solid #ff884d;
+	background-color:#ff884d;
+}
+
+.porta-bolo .doces .enfeite:after{
+	content:' 🍮 ';
+}
+.porta-bolo .doces .rotulo {
+	background-image: linear-gradient(rgba(255,255,255,0), #ff884d );		
+}
+
+
+.porta-bolo .cappuccino {
+	border:4px solid #662200;
+	background-color:#662200;
+}
+
+.porta-bolo .cappuccino .enfeite:after{
+	content:' ☕ ';
+}
+.porta-bolo .cappuccino .rotulo {
+	background-image: linear-gradient(rgba(255,255,255,0), #662200 );		
+}
+/*uma coisinha para enfeitar*/
+#separador{
+display:flex;
+flex-wrap:nowrap;
+align-items: center;
+justify-content: space-around;
+margin:5px 0;
+
+}
+#separador hr{
+background-color:crimson;
+width:45%;
+border:1px solid crimson;
+opacity:1;
+border-radius:1.25px;
+
+}
+#separador img{
+width:8%;
+
+}
+
+/*
+
+sobre
+
+*/
+#relato {
+	color:crimson;
+	line-height:1.75em;	
+	text-indent:2em;
+}
+#relato span {
+	text-decoration:underline;
+	text-decoration-color:mediumspringgreen;
+	font-weight:500;
+}
+
+#relato:first-letter{
+	font-size:1.75em;
+}
+.card {
+	background-color:#f9e2d2;	
+}
+.card { 
+	border:2px solid chocolate;
+}
+.card img{
+	width:40%; 
+	border:2px solid crimson;
+	bborder-radius:50%;
+
+}
+.card .nav .active{
+	background-color:chocolate;
+	color:springgreen
+}
+.card .nav-link {
+	color:royalblue;
+
+}
+.card .card-link{
+	color:royalblue;
+	text-decoration:none;
+}
+.card .card-text{
+	color:crimson;
+	line-height:1.75em;
+}
+.card .card-title{
+	color:crimson;
+
+}
+#map{
+	width:100%;	
+	height:50vh;
+	border:2px solid chocolate;
+	border-radius:4px;	
+}
+.mapa a{
+background-color:chocolate;	
+color:springgreen;
+
+}
+/*
+
+rodapé
+
+
+*/
+
+footer .logo img{width:3em;}
+footer a i{
+color:royalblue;	
+}
+footer h4{
+font-size:1.7em;
+font-weight:300;
+
+}
+@media only screen and (min-width: 800px) {
+	#map{
+		height:100vh;
+	}
+	#separador img{
+		width:5%;
+	}
+	#separador hr{
+		width:45%;
+		border:2px solid crimson;
+		opacity:1;
+		border-radius:2px;
+	}
+	#relato{
+		columns:2;
+		column-rule:2px solid mediumspringgreen;
+		column-gap:30px;
+  
+	}
+	.card img{
+		width:30%;
+	}
+	footer .logo img{width:3em;}
+	
+}
